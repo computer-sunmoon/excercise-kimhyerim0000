@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 void main(){
   runApp(
     const Center(
-      Child: Text(
-        
+      child: Text(
+
       ),
     ),
   );
