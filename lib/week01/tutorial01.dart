@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 
 void main(){
   runApp(
-    Chlid: Text(
-
+    const Center(
+      Child: Text(
+        
+      ),
     ),
   );
 }
