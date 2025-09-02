@@ -6,7 +6,7 @@ void main(){
       child: Text(
         'Hello World!',
         textDirection: TextDirection.ltr,
-        style:TextStyle(),
+        style:TextStyle(TextColor),
       ),
     ),
   );
