@@ -4,5 +4,8 @@ void main(){
   double isDouble=1.0;
   bool istrue=true;
 
-  print
+  print(name);
+  print(isINt);
+  print(isDouble);
+  print(istrue);
 }
