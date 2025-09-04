@@ -4,5 +4,5 @@ void main(){
   final newList=list.map(
     (name)=> '블랙핑크 $name',
   );
-  
+  print(newList);
 }
