@@ -6,7 +6,8 @@ void main(){
   };
   print(dic.values);
   List<String> valuesList=dic.values.toList();
+  print(dic.values.toList());
   print(valuesList);
-  
+
   print(dic.keys);
 }
