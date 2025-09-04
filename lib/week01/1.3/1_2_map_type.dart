@@ -5,5 +5,6 @@ void main(){
     'Hermione':'미온느',
   };
   print(dic.values);
+  
   print(dic.keys);
 }
