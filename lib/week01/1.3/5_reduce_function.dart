@@ -5,4 +5,6 @@ void main(){
     (value,element)=> value+' , '+element
   );
 
+  print(newList);
+  
 }
