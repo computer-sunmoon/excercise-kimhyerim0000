@@ -4,6 +4,6 @@ void main(){
     'Ron':'론',
     'Hermione':'미온느',
   };
-  print(dic.values);
+  print(dic.values.toList);
   print(dic.keys);
 }
