@@ -6,5 +6,6 @@ void main(){
 
   print(list.length);
 
-  list[]
+  list[0]='코드팩토리';
+  print(list);
 }
