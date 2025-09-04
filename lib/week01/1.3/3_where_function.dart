@@ -1,5 +1,7 @@
 void main(){
   List<String> list=['제니','리사','지수','로제'];
 
-  final newList
+  final newList=list.where(
+    (name) => name=='제니' || name=='리사',
+  ),
 }
