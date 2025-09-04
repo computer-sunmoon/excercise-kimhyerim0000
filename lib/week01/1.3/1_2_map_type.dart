@@ -5,6 +5,6 @@ void main(){
     'Hermione':'미온느',
   };
   print(dic.values);
-  
+  List<String> valuesList=
   print(dic.keys);
 }
