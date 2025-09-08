@@ -12,5 +12,15 @@ void main(){
     break;
     
     case Status.pending:
+    print('대기 상태');
+    break;
+
+    case Status.rejected:
+    print('거절 상태');
+    break;
+    
+    default:
+    print('거절 상태입니다.');
   }
+  print(Status.values);
 }
