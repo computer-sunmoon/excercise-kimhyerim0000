@@ -3,4 +3,7 @@ enum Status {
   pending,
   rejected,
 }
-v
+void main() {
+  Status status=Status.approved;
+  print(status);
+}
