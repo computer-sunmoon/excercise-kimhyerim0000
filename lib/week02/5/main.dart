@@ -6,8 +6,8 @@ void main(){
       home: Scaffold(
         body: Text(
           'Hello Code Factory',
-        )
-      )
-    )
+        ),
+      ),
+    ),
   );
 }
