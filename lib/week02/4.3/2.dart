@@ -24,3 +24,6 @@ void switcher(dynamic anything){
     print('no match');
   }
 }
+void main(){
+  switcher('아',1);
+}
