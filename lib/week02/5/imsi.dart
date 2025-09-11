@@ -3,4 +3,6 @@ class Idol{
   int members;
 
   Idol(this.name,this.members);
+
+  int get getter
 }
