@@ -26,5 +26,6 @@ void switcher(dynamic anything){
   }
 }
 void main(){
-  switcher(('아',1));
+  switcher('aaa');
+  
 }
