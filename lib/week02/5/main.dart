@@ -1,5 +1,13 @@
 import 'package:flutter/material.dart';
 
 void main(){
-  runApp();
+  runApp(
+    MaterialApp(
+      home: Scaffold(
+        body: Text(
+          'Hello Code Factory',
+        )
+      )
+    )
+  );
 }
