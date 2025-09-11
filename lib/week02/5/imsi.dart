@@ -1,14 +1,14 @@
 class Idol{
   String name;
-  int members;
+  int _members;
 
-  Idol(this.name,this.members);
+  Idol(this.name,this._members);
 
   int get getter(){
-    return this.members;
+    return this._members;
   }
   set setter(setmembers){
-    this.members=setmembers;
+    this._members=setmembers;
   }
 
   void sayName(){
@@ -16,9 +16,9 @@ class Idol{
   }
   
   void printSummary(){
-    print('그룹:${this.name}, 멤버 수: ${members}');
+    print('그룹:${this.name}, 멤버 수: ${_members}');
   }
 }
 void main(){
-  
+  printSummary();
 }
