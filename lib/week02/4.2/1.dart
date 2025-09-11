@@ -4,6 +4,9 @@ void main(){
   // print(newJeans[0]);
   // print(newJeans[1]);
   final [minji,haerin] = ['민지','해린'];
+  
+  // 민지 출력
   print(minji);
+  // 해린 출력
   print(haerin);
 }
