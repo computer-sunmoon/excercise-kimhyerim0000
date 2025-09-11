@@ -20,5 +20,5 @@ class Idol{
   }
 }
 void main(){
-  printSummary();
+  Idol idol=Idol('')
 }
