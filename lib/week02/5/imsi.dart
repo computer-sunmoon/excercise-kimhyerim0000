@@ -8,7 +8,7 @@ class Idol{
     return this._members;
   }
   set setter(setmembers){
-    if(setmemebrs)
+    if(setmembers>0 && setmembers)
     this._members=setmembers;
   }
 
