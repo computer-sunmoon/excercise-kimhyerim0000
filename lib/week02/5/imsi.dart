@@ -21,5 +21,6 @@ class Idol{
   }
 }
 void main(){
-  
+  Idol idol=Idol('아이돌',5);
+  idol.printSummary();
 }
