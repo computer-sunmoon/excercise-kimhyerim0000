@@ -8,6 +8,7 @@ class Idol{
     return this._members;
   }
   set setter(setmembers){
+    if(setmemebrs)
     this._members=setmembers;
   }
 
@@ -20,5 +21,5 @@ class Idol{
   }
 }
 void main(){
-  Idol idol=Idol('')
+  
 }
