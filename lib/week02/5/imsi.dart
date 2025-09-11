@@ -24,3 +24,6 @@ void main(){
   Idol idol=Idol('아이돌',5);
   idol.printSummary();
 }
+class BoyGroup extends Idol{
+  
+}
