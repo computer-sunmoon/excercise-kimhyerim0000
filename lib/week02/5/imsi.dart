@@ -33,5 +33,4 @@ void main(){
   ..setter(13)
   ..setter(6)
   ..printSummary();
-  
 }
