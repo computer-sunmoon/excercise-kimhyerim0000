@@ -14,4 +14,8 @@ class Idol{
   void sayName(){
     print('저는 $name입니다.');
   }
+  
+  void printSummary(){
+    print('그룹:${this.name}, 멤버 수: ${}')
+  }
 }
