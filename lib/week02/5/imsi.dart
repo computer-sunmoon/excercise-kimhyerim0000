@@ -16,6 +16,9 @@ class Idol{
   }
   
   void printSummary(){
-    print('그룹:${this.name}, 멤버 수: ${}')
+    print('그룹:${this.name}, 멤버 수: ${members}');
   }
+}
+void main(){
+  
 }
