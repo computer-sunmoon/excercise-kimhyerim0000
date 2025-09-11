@@ -31,5 +31,4 @@ void main(){
   BoyGroup boygroup =BoyGroup("BTS",7);
   boygroup.sayName();
   
-  
 }
