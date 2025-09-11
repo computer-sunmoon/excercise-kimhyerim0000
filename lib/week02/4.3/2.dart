@@ -26,8 +26,11 @@ void switcher(dynamic anything){
   }
 }
 void main(){
+  // match:aaa 출력
   switcher('aaa');
+  // match: [1,2] 출력
   switcher([1,2]);
+  // match: [_,_,_] 출력력
   switcher([1,2,3]);
   switcher([3,4]);
   switcher(('민지',19));
