@@ -9,6 +9,10 @@ void switcher(dynamic anything){
     break;
 
     case [_,_,_]:
-    print('match:[_,]')
+    print('match:[_,_,_]');
+    break;
+
+    case [int a, int b]:
+    print('match: [int ]')
   }
 }
