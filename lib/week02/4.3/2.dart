@@ -30,10 +30,13 @@ void main(){
   switcher('aaa');
   // match: [1,2] 출력
   switcher([1,2]);
-  // match: [_,_,_] 출력력
+  // match: [_,_,_] 출력
   switcher([1,2,3]);
+  // match: [int 3, int 4] 출력
   switcher([3,4]);
+  // match: (String: 민지, int: 19) 출력
   switcher(('민지',19));
+  // no match 출력
   switcher(8);
 
 }
