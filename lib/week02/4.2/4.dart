@@ -6,5 +6,7 @@ class Idol{
 }
 void main(){
   final minji=Idol(name:'민지',age:19);
-  Idol(name:name, age:age)=
+  final Idol(name:name, age:age)=minji;
+  print(name);
+  print(age);
 }
