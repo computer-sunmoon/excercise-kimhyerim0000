@@ -1,5 +1,6 @@
 void main(){
-  bool? tf;
+  // tf에 입력될 수 있는 값은 true
+  bool? tf=true;
 
   switch(tf){
     case true:
