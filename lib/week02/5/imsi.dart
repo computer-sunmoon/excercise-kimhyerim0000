@@ -25,5 +25,7 @@ void main(){
   idol.printSummary();
 }
 class BoyGroup extends Idol{
-  
+  void sayName(){
+    
+  }
 }
