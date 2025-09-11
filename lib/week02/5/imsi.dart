@@ -23,7 +23,11 @@ class Idol{
 void main(){
   Idol idol=Idol('아이돌',5);
   idol.printSummary();
+  
 }
 class BoyGroup extends Idol{
   BoyGroup(super.name, super._members);
+  void sayName(){
+    print('저는 보이그룹 ${name}입니다.');
+  }
 }
