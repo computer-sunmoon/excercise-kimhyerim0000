@@ -30,6 +30,7 @@ void main(){
   switcher([1,2]);
   switcher([1,2,3]);
   switcher([3,4]);
-  switcher()
+  switcher(('민지',19));
+  switcher(8);
 
 }
