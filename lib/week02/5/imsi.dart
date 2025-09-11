@@ -28,7 +28,8 @@ class BoyGroup extends Idol{
   }
 }
 void main(){
-  Idol idol=Idol('아이돌',5);
-  idol.printSummary();
+  BoyGroup boygroup =BoyGroup("BTS",7);
+  boygroup.sayName();
+  
   
 }
