@@ -9,7 +9,7 @@ class Idol{
   }
   set setter(setmembers){
     if(setmembers>0 && setmembers<13){this._members=setmembers;}
-    else(){print('멤버 수는 1~12 사이어야 합니다.')};
+    else {print('멤버 수는 1~12 사이어야 합니다.');}
   }
 
   void sayName(){
