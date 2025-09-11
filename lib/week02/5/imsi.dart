@@ -4,7 +4,7 @@ class Idol{
 
   Idol(this.name,this._members);
 
-  int get getter(){
+  int get getter{
     return this._members;
   }
   set setter(setmembers){
