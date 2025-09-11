@@ -31,6 +31,7 @@ void main(){
   BoyGroup boygroup =BoyGroup("BTS",7)
   ..sayName()
   ..setter(13)
-  ..
+  ..setter(6)
+  ..printSummary();
   
 }
