@@ -29,6 +29,7 @@ class BoyGroup extends Idol{
 }
 void main(){
   BoyGroup boygroup =BoyGroup("BTS",7)
-  ...sayName();
+  ..sayName()
+  ..
   
 }
