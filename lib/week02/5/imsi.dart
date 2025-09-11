@@ -8,8 +8,8 @@ class Idol{
     return this._members;
   }
   set setter(setmembers){
-    if(setmembers>0 && setmembers)
-    this._members=setmembers;
+    if(setmembers>0 && setmembers<13){this._members=setmembers;}
+    else(){print('멤버 수는 1~12 사이어야 합니다.');}
   }
 
   void sayName(){
