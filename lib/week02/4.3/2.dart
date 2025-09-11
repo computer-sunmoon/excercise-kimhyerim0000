@@ -16,8 +16,8 @@ void switcher(dynamic anything){
     print('match: [int $a, int $b]');
     break;
 
-    case (String, int):
-    print('match: $1, $2');
+    case (String a, int b):
+    print('match: $a, $b');
     break;
 
     default:
