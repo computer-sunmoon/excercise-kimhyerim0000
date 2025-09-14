@@ -1,3 +1,5 @@
 typedef Operation=void Function(int x,int y);
 
-v
+void add(int x,int y){
+  print('결괏값 : ${x+y}');
+}
