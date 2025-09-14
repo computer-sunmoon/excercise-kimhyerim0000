@@ -8,5 +8,6 @@ void subtract(int x,int y){
 }
 
 void main(){
-  Operation opper= add;
+  Operation oper= add;
+  oper(1,2);
 }
