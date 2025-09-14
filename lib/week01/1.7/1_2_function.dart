@@ -4,3 +4,6 @@ int addTwoNumbers({
 }) {
   return a+b;
 }
+void main(){
+  print(addTwoNumbers(a:1,b:2));
+}
