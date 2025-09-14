@@ -10,4 +10,7 @@ void subtract(int x,int y){
 void main(){
   Operation oper= add;
   oper(1,2);
+
+  oper=subtract;
+  oper(1,2);
 }
