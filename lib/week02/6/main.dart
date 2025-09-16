@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
           child: ElevatedButton(
             onPressed: (){},
             style: ElevatedButton.styleFrom(
-              backgroundColor.red,
+              backgroundColor: Colors.red,
             ),
             child: Text('엘리베이티드 버튼'),
           )
