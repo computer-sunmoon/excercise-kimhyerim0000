@@ -16,7 +16,10 @@ class FloatingActionButtonExample extends StatelessWidget {
           body: Container(   
             decoration: BoxDecoration(
               color: Colors.red,
-              
+              border: Border.all(
+                width: 16.0,
+                color:Colors.black,
+              )
             )
           ),
         )
