@@ -8,11 +8,18 @@ class FloatingActionButtonExample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        SafeArea(
+        home: Scaffold(
+        body: SafeArea(
           top: true,
           left: true,
           right: true,
-          bottm:
+          bottom: true,
+          child: Container(
+            color: Colors.red,
+            height: 300.0,
+            width:300.0,
+          )
+        ),
         )
       );
     }
