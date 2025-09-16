@@ -14,7 +14,7 @@ class FloatingActionButtonExample extends StatelessWidget {
           child: Text('클릭'),
           ),
           body: Container(),
+        )
       )
-    )
   }
 }
