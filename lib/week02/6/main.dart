@@ -25,6 +25,11 @@ class RowWidgetExample extends StatelessWidget {
                     width: 50.0,
                     color: Colors.green,
                   ),
+                  Container(
+                    height: 50.0,
+                    width: 50.0,
+                    color: Colors.yellow,
+                  )
               ]
             )
           )
