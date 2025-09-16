@@ -12,7 +12,7 @@ class RowWidgetExample extends StatelessWidget {
           body: SizedBox(
             height: double.infinity,
             child: Row(
-              mainAxisAlignment: MainAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.end,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Container(
