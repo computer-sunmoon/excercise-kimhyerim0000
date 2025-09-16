@@ -11,6 +11,9 @@ class RowWidgetExample extends StatelessWidget {
         home: Scaffold(
           body: SizedBox(
             height: double.infinity,
+            child: Row(
+              mainAxisAligment: MainAxisAligme
+            )
           )
         )
       );
