@@ -7,6 +7,12 @@ void main(){
 class FloatingActionButtonExample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp
+    return MaterialApp(
+      home: Scaffold(
+        floatingActionButton: FloatingActionButton(
+          onPressed: (){ print('클릭')},
+          child: Text('클릭'))
+      )
+    )
   }
 }
