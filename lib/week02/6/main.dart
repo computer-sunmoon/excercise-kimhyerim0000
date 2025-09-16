@@ -10,11 +10,13 @@ class FloatingActionButtonExample extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         floatingActionButton: FloatingActionButton(
-          onPressed: (){ print('클릭')},
+          onPressed: (){ print('클릭'); },
           child: Text('클릭'),
           ),
-          body: Container(),
+          body: Center(
+
+          ),
         )
       )
-  }
+    }
 }
