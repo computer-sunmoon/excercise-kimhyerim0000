@@ -14,7 +14,12 @@ class FloatingActionButtonExample extends StatelessWidget {
           child: Text('클릭'),
           ),
           body: Container( 
-            color: 
+            color: Colors.blue,
+            child: Padding(
+              padding: EdgeInsets.all(
+                
+              )
+            )
           )
         )
       );
