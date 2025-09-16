@@ -8,7 +8,7 @@ class FloatingActionButtonExample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
+      home: Scaffold( // 전체화면을 차지한다. 원하는 부위는 SafeArea
         floatingActionButton: FloatingActionButton(
           onPressed: (){ print('클릭'); },
           child: Text('클릭'),
