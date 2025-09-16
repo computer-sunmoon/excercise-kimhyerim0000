@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 void main(){
-  runApp(FloatingActionButtonExample());
+  runApp(RowWidgetExample());
 }
 
-class FloatingActionButtonExample extends StatelessWidget {
+class RowWidgetExample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
