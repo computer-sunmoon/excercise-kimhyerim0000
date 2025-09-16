@@ -20,6 +20,7 @@ class FloatingActionButtonExample extends StatelessWidget {
                 width: 16.0,
                 color:Colors.black,
               )
+              borderRadius: BorderRadius.circular(double16.0)
             )
           ),
         )
