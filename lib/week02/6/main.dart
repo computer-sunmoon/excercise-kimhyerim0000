@@ -14,7 +14,6 @@ class MyApp extends StatelessWidget {
             onPressed: () {},
             child: Text('텍스트 버튼'),
           )
-          )
         )
       )
     );
