@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
         body: Center(
           child: TextButton(
             onPressed: () {},
+            child: Text('텍스트 버튼'),
           )
           )
         )
