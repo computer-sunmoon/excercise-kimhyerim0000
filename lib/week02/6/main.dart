@@ -9,17 +9,17 @@ class FloatingActionButtonExample extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
-        body: SafeArea(
-          top: true,
-          left: true,
-          right: true,
-          bottom: true,
-          child: Container(
-            color: Colors.red,
-            height: 300.0,
-            width:300.0,
+          body: SafeArea(
+            top: false,
+            left: true,
+            right: true,
+            bottom: true,
+            child: Container(
+              color: Colors.red,
+              height: 300.0,
+              width:300.0,
+            )
           )
-        ),
         )
       );
     }
