@@ -6,5 +6,7 @@ void main(){
 
 class FloatingActionButtonExample extends StatelessWidget {
   @override
-  Widget build()
+  Widget build(BuildContext context) {
+    return MaterialApp
+  }
 }
