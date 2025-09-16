@@ -13,8 +13,11 @@ class FloatingActionButtonExample extends StatelessWidget {
           onPressed: (){ print('클릭'); },
           child: Text('클릭'),
           ),
-          body: Center(   
-            
+          body: Container(   
+            decoration: BoxDecoration(
+              color: Colors.red,
+              
+            )
           ),
         )
       );
