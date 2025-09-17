@@ -24,7 +24,8 @@ class ColumnWidgetExample extends StatelessWidget {
                 color: Colors.red,
               ),
               const SizedBox(width: 12.0),
-              
+              Contain
+
             ]
 
           )
