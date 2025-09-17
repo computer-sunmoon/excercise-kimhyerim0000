@@ -19,6 +19,11 @@ class ColumnWidgetExample extends StatelessWidget {
                 child: Container(
                   color: Colors.blue,
                 ),
+              ),
+              Flexible(
+                flex: 1,
+                child: Container(
+                  color: Colors.red,)
               )
             ],
 
