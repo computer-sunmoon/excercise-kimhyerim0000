@@ -14,17 +14,22 @@ class ColumnWidgetExample extends StatelessWidget {
           width: double.infinity,
           child: Column(
             children: [
-              Flexible(
-                flex: 1,
+              Expanded(
                 child: Container(
                   color: Colors.blue,
                 ),
-              ),
-              Flexible(
-                flex: 1,
-                child: Container(
-                  color: Colors.red,)
               )
+              // Flexible(
+              //   flex: 1,
+              //   child: Container(
+              //     color: Colors.blue,
+              //   ),
+              // ),
+              // Flexible(
+              //   flex: 1,
+              //   child: Container(
+              //     color: Colors.red,)
+              // )
             ],
                       )
         )
