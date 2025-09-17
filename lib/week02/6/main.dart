@@ -13,7 +13,7 @@ class RowWidgetExample extends StatelessWidget {
             height: double.infinity,
             child: Row(
               mainAxisAlignment: MainAxisAlignment.end,
-              crossAxisAlignment: CrossAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
                 Container(
                   height: 50.0,
@@ -28,7 +28,7 @@ class RowWidgetExample extends StatelessWidget {
                   Container(
                     height: 50.0,
                     width: 50.0,
-                    color: Colors.yellow,
+                    color: Colors.blue,
                   )
               ]
             )
