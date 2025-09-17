@@ -26,11 +26,10 @@ class ColumnWidgetExample extends StatelessWidget {
                   color: Colors.red,)
               )
             ],
-
                       )
         )
       )
-    )
+    );
   }
 }
 // void main(){
