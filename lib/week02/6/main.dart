@@ -15,7 +15,7 @@ class ColumnWidgetExample extends StatelessWidget {
           width: double.infinity,
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
-            crossAxisAlignment: CrossAxisAlignmnet.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
 
             children: [
               Container(
