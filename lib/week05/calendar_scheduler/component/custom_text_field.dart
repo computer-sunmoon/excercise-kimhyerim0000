@@ -26,6 +26,9 @@ class CustomTextField extends StatelessWidget {
         ),
         Expanded(
           flex: isTime ? 0:1,
+          child: TextFormField(
+            cursorColor:Colors.grey,
+          )
         ),
         TextFormField(),
       ],
