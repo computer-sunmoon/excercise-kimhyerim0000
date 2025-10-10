@@ -24,6 +24,9 @@ class CustomTextField extends StatelessWidget {
             fontWeight: FontWeight.w600,
           )
         ),
+        Expanded(
+          flex: isTime ? 0:1,
+        ),
         TextFormField(),
       ],
     );
