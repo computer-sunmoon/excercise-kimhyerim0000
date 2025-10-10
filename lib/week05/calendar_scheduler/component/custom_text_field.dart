@@ -30,7 +30,8 @@ class CustomTextField extends StatelessWidget {
             cursorColor:Colors.grey,
             maxLines: isTime? 1:null,
             expands: !isTime,
-            keyboardType: isTime? TextputtyType.number
+            keyboardType: isTime? TextputtyType.number: TextInputType.multiline,
+            inputFormatters: []
           )
         ),
         TextFormField(),
