@@ -13,8 +13,7 @@ class _ScheduleBottomSheetState extends State<ScheduleBottomSheet> {
     return Container(
       height: MediaQuery.of(context).size.height/2,
       color:Colors.white,
-      child: Expanded(
-        child: CustomTextField,)
+      child: Padding()
     );
   }
 }
