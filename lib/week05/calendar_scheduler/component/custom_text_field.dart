@@ -28,6 +28,9 @@ class CustomTextField extends StatelessWidget {
           flex: isTime ? 0:1,
           child: TextFormField(
             cursorColor:Colors.grey,
+            maxLines: isTime? 1:null,
+            expands: !isTime,
+            keyboardType: isTime? TextputtyType.number
           )
         ),
         TextFormField(),
