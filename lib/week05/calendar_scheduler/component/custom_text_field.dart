@@ -37,7 +37,6 @@ class CustomTextField extends StatelessWidget {
             ]:null,
           )
         ),
-        TextFormField(),
       ],
     );
   }
