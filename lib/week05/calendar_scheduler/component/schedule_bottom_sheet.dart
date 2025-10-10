@@ -24,9 +24,16 @@ class _ScheduleBottomSheetState extends State<ScheduleBottomSheet> {
         Expanded(child:CustomTextField(label:"내용", isTime: false)),
         SizedBox(width: double.maxFinite
         ,child:ElevatedButton(
-          onPressed: 
+          onPressed: onSavedPressed,
+          style: ElevatedButton.styleFrom(
+            backgroundColor: PRIMARY_COLOR,
+          ),
+          child:Text('저장')
         ))],)
       ],))
     );
+  }
+  void onSavedPressed() {
+    Navigator.of(context).pop();
   }
 }
