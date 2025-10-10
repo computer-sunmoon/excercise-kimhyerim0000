@@ -25,7 +25,7 @@ class CustomTextField extends StatelessWidget {
           )
         ),
         Expanded(
-          flex: isTime ? 0:1,
+          flex: isTime ? 0 : 1,
           child: TextFormField(
             cursorColor:Colors.grey,
             maxLines: isTime? 1:null,
