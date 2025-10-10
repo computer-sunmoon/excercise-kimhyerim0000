@@ -15,7 +15,8 @@ class _ScheduleBottomSheetState extends State<ScheduleBottomSheet> {
       color:Colors.white,
       child: Padding(padding: const EdgeInsets.only(left: 8,right:8,top:8),
       child: Column(children: [
-        Row
+        Row(children: [Expanded(child: CustomTextField(label:"시작시간",isTime:true),
+        )],)
       ],))
     );
   }
