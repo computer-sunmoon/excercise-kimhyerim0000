@@ -6,6 +6,7 @@ void main() async{
   WidgetsFlutterBinding.ensureInitialized();
 
   await initializeDateFormatting();
+  
   runApp(
     MaterialApp(
       home: HomeScreen(),
