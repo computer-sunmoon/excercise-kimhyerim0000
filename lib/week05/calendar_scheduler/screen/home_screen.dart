@@ -4,7 +4,7 @@ import 'package:week03/week05/calendar_scheduler/component/schedule_card.dart';
 import 'package:week03/week05/calendar_scheduler/component/schedule_bottom_sheet.dart';
 import 'package:week03/week05/calendar_scheduler/const/colors.dart  ';
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+  const HomeScreen({super.key});
 
   @override
   State<HomeScreen> createState( )=> _HomeScreenState();

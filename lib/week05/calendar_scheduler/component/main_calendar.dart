@@ -6,7 +6,7 @@ class MainCalendar extends StatelessWidget {
   final OnDaySelected onDaySelected;
   final DateTime selectedDate;
 
-  MainCalendar({
+  const MainCalendar({super.key, 
     required this.onDaySelected,
     required this.selectedDate,
   });

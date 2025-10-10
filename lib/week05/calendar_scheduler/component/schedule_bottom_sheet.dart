@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:week03/week05/calendar_scheduler/component/custom_text_field.dart';
 
 class ScheduleBottomSheet extends StatefulWidget {
-  const ScheduleBottomSheet({Key? key}) : super(key: key);
+  const ScheduleBottomSheet({super.key});
 
   @override
   State<ScheduleBottomSheet> createState() => _ScheduleBottomSheetState();

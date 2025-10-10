@@ -10,8 +10,8 @@ class _Time extends StatelessWidget {
     required this.endTime,
     //
     //
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -44,8 +44,8 @@ class _Context extends StatelessWidget {
 
   const _Context({
     required this.content,
-    Key? key,
-  }): super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -65,8 +65,8 @@ class ScheduleCard extends StatelessWidget {
     required this.startTime,
     required this.endTime,
     required this.content,
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
