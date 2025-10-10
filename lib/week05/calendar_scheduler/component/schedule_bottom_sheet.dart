@@ -23,7 +23,9 @@ class _ScheduleBottomSheetState extends State<ScheduleBottomSheet> {
         SizedBox(height:8.0),
         Expanded(child:CustomTextField(label:"내용", isTime: false)),
         SizedBox(width: double.maxFinite
-        ,child:)],)
+        ,child:ElevatedButton(
+          onPressed: 
+        ))],)
       ],))
     );
   }
