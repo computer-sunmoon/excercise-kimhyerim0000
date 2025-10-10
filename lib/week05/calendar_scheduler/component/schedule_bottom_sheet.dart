@@ -17,7 +17,9 @@ class _ScheduleBottomSheetState extends State<ScheduleBottomSheet> {
       child: Column(children: [
         Row(children: [Expanded(child: CustomTextField(label:"시작시간",isTime:true),
         ),
-        const SizedBox(width: )],)
+        const SizedBox(width: 16.0),
+        Expanded(child: 
+        ,)],)
       ],))
     );
   }
