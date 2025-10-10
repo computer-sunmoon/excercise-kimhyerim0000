@@ -10,6 +10,8 @@ class ScheduleBottomSheet extends StatefulWidget {
 class _ScheduleBottomSheetState extends State<ScheduleBottomSheet> {
   @override
   Widget build(BuildContext context) {
+    final bottomInset=MediaQuery.of(context).viewInsets.bottom;
+    
     return Container(
       height: MediaQuery.of(context).size.height/2,
       color:Colors.white,
