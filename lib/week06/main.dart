@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:week03/week05/calendar_scheduler/screen/home_screen.dart';
+import 'package:week03/week06/calendar_scheduler/screen/home_screen.dart';
 import 'package:intl/date_symbol_data_local.dart';
 
 void main() async{
