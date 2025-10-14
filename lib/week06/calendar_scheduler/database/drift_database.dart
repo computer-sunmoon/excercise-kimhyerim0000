@@ -4,7 +4,7 @@ import 'package:drift/drift.dart';
 part 'drift_database.g.dart';
 
 import 'package:drift/native.dart';
-import 'packa'
+import 'package:path_provider/path_provider.dart';
 
 @DriftDatabase(
   tables: [
