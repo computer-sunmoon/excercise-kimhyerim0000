@@ -1,0 +1,1 @@
+{"valid_import":true,"imports":[{"uri":"package:flutter/material.dart","transitive":false},{"uri":"package:week03/week04/random_dice/screen/home_screen.dart","transitive":false},{"uri":"package:week03/week04/random_dice/screen/setting_screen.dart","transitive":false},{"uri":"package:shake/shake.dart","transitive":false}],"elements":[]}

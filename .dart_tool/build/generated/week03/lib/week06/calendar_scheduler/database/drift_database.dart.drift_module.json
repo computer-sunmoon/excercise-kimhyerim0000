@@ -1,0 +1,27 @@
+{
+  "elements": {
+    "LocalDatabase": {
+      "id": {
+        "library_uri": "package:week03/week06/calendar_scheduler/database/drift_database.dart",
+        "name": "LocalDatabase"
+      },
+      "declaration": {
+        "source_uri": "package:week03/week06/calendar_scheduler/database/drift_database.dart",
+        "offset": 203,
+        "name": "LocalDatabase"
+      },
+      "references": [],
+      "type": "database",
+      "tables": [],
+      "views": [],
+      "includes": [],
+      "queries": [],
+      "schema_version": null,
+      "daos": []
+    }
+  },
+  "imports": [
+    "package:myapp/week06calendar_scheduler/model/schedule.dart",
+    "package:drift/drift.dart"
+  ]
+}

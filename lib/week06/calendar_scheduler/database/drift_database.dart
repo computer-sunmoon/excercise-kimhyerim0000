@@ -3,6 +3,9 @@ import 'package:drift/drift.dart';
 
 part 'drift_database.g.dart';
 
+import 'package:drift/native.dart';
+import 'packa'
+
 @DriftDatabase(
   tables: [
     Schedules,
@@ -19,5 +22,5 @@ class LocalDatabase extends _LocalDatabase {
 
   @override
   int get schemaVersion => 1;
-  
+
 }
