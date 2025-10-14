@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:week03/week06/calendar_scheduler/component/main_calendar.dart';
 import 'package:week03/week06/calendar_scheduler/component/schedule_card.dart';
 import 'package:week03/week06/calendar_scheduler/component/schedule_bottom_sheet.dart';
-import 'package:week03/week05/calendar_scheduler/const/colors.dart  ';
+import 'package:week03/week06/calendar_scheduler/const/colors.dart';
+
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 
@@ -54,4 +55,3 @@ class _HomeScreenState extends State<HomeScreen> {
   });
 }
 }
-//rebuild 하는 방법 1. 매개변수로 전달된 함수를 전달하기 2. setState() 함수 사용하기
