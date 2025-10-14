@@ -1,0 +1,15 @@
+import 'package:myapp/week06calendar_scheduler/model/schedule.dart';
+import 'package:drift/drift.dart';
+
+part 'drift_database.g.dart';
+
+@DriftDatabase(
+  tables: [
+    Schedules,
+  ]
+)
+
+class LocalDatabase extends _LocalDatabase {
+  Stream<List<Schedule>> watchSchedules(DateTime date) =>
+    (select(schedules)..where((tbl) => tbl.date.equals(date))).watch();
+}
