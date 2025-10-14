@@ -12,4 +12,12 @@ part 'drift_database.g.dart';
 class LocalDatabase extends _LocalDatabase {
   Stream<List<Schedule>> watchSchedules(DateTime date) =>
     (select(schedules)..where((tbl) => tbl.date.equals(date))).watch();
+  Future<int> createSchedule(SchedulesCompanion data) =>
+    into(schedules).insert(data);
+  Future<int> removeSchedule(int id) =>
+    (delete(schedules)..where((tbl) => tbl.id.equals(id))).go();
+
+  @override
+  int get schemaVersion => 1;
+  
 }

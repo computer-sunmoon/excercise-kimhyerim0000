@@ -1,0 +1,1 @@
+{"valid_import":true,"imports":[{"uri":"package:myapp/week06calendar_scheduler/model/schedule.dart","transitive":false},{"uri":"package:drift/drift.dart","transitive":false}],"elements":[{"kind":"database","name":"LocalDatabase","dart_name":"LocalDatabase"}]}
